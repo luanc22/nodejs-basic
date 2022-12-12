@@ -7,8 +7,13 @@ const person = {
     }
 };
 
+//destructuring example
 const printName = ({ name }) => {
     console.log(name);
 }
-
 printName(person);
+
+//array destructuring example
+const hobbies = ['Playing Games', 'Cooking', 'Sports'];
+const [hobby1, hobby2] = hobbies;
+console.log(hobby1 + ' , ' + hobby2);
